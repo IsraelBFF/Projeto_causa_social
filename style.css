@@ -4,35 +4,29 @@ nav table {
     display: flex;
 }
 
-nav table th {
-    text-align: left;
-}
-
-#conheça_musicoterapia {
-    background-color: rgba(0, 255, 255, 0.559);
-    border-radius: 50px;
-    padding: 15px 5px;
-}
-
-#conheça_musicoterapia :hover {
-    color: white;
-}
-
-nav table td {
+nav table td a {
     padding: 26px;
     text-align: right;
     font-size: 14px;
-    color: rgba(2, 2, 201, 0.108);
+    text-decoration: none;
 }
 
-nav table td :hover {
-    color: rgb(1, 1, 135);
+nav table td a:hover {
+    color: rgb(4, 23, 235);
 }
 
 #separador {
     width: 450px;
 }
 
-nav table td a {
-    text-decoration: none;
+#conheça_musicoterapia {
+    background-color: rgb(24, 24, 203);
+    border-radius: 50px;
+    padding: 14px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#conheça_musicoterapia:hover {
+    background-color: rgb(113, 113, 200);
 }
