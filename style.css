@@ -15,6 +15,11 @@ nav table td a:hover {
     color: rgb(4, 23, 235);
 }
 
+nav table th a {
+    text-decoration: none;
+    color: black;
+}
+
 #separador {
     width: 450px;
 }
@@ -30,3 +35,40 @@ nav table td a:hover {
 #conheça_musicoterapia:hover {
     background-color: rgb(113, 113, 200);
 }
+
+#cuidados {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+/* Scroll flúido */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*      RODAPÉ      */
+
+#rodapé {
+    align-self: center;
+}
+
+#rodapé th {
+    text-align: left;
+    padding: 0px 40px;
+}
+
+#rodapé td {
+    padding: 0px 40px;
+}
+
+#rodapé td ul a {
+    text-decoration: none;
+}
+
+#rodapé td ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
