@@ -1,0 +1,38 @@
+nav table {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+
+nav table th {
+    text-align: left;
+}
+
+#conheça_musicoterapia {
+    background-color: rgba(0, 255, 255, 0.559);
+    border-radius: 50px;
+    padding: 15px 5px;
+}
+
+#conheça_musicoterapia :hover {
+    color: white;
+}
+
+nav table td {
+    padding: 26px;
+    text-align: right;
+    font-size: 14px;
+    color: rgba(2, 2, 201, 0.108);
+}
+
+nav table td :hover {
+    color: rgb(1, 1, 135);
+}
+
+#separador {
+    width: 450px;
+}
+
+nav table td a {
+    text-decoration: none;
+}
